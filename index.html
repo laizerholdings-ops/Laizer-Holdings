@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Laizer Consultation (Pty) Ltd</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="top-bar">
+        <div class="social-icons">
+            <a href="https://www.facebook.com/laizer.cipc?mibextid=ZbWKwL" target="_blank" aria-label="Follow us on Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/laizer_holdings_pty_" target="_blank" aria-label="Follow us on Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/abide-masiya-8a0bb4331?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" aria-label="Connect on LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </div>
+
+    <header>
+        <div class="header-flex">
+            <div class="logo-title">
+                <img src="logo.png" alt="Laizer Holdings Logo" class="logo" />
+                <div>
+                    <h1>Laizer Consultation (Pty) Ltd</h1>
+                    <p class="slogan">Effortless Compliance, Every Time</p>
+                </div>
+            </div>
+            <div class="menu-icon" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+        <div id="navLinks">
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#packages" class="nav-link">Packages</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="content-section active-section">
+        <h2><i class="fas fa-home"></i> Welcome to Laizer Consultation</h2>
+        <p>Laizer Holdings offers a comprehensive suite of professional services to help businesses navigate compliance and administration. We manage essential company details, including beneficial ownership, director additions/removals, and address changes, as well as handling annual returns. Our tax and government services include securing a Tax Pin/Clearance and managing SARS Tax Returns, alongside registering your business on the Central Supplier Database (CSD). We also specialize in obtaining B-BBEE Certification, COIDA/Letter of Good Standing, and CIDB Registration. For non-profit organizations, we assist with NPO Registration. We further support the housing sector with NHBRC Registration and Renewal, including guidance for the NHBRC Exam Scope. Our goal is to provide a single, reliable source for all your business needs.</p>
+    </section>
+
+    <section id="about" class="content-section hideable-section">
+        <h2><i class="fas fa-building"></i> About Laizer Consultation (Pty) Ltd</h2>
+        <p>Laizer Holdings is a dedicated professional services firm, committed to helping businesses of all sizes navigate a complex regulatory landscape. We were founded on the principle of simplifying compliance and administration. Our comprehensive suite of services covers everything from essential company maintenance to specialized industry requirements. We expertly manage crucial details like beneficial ownership, director changes, and annual returns. Our tax services include obtaining a Tax Pin/Clearance and handling SARS Tax Returns, while we also facilitate registration on the Central Supplier Database (CSD). For industry needs, we offer B-BBEE Certification, COIDA/Letter of Good Standing, and CIDB Registration. We also assist non-profits with NPO Registration and provide full support for NHBRC Registration and Renewal. Our goal is to be your reliable partner, providing peace of mind through efficient and expert solutions.</p>
+    </section>
+
+    <section id="packages" class="content-section active-section">
+        <h2><i class="fas fa-tags"></i> Our Packages</h2>
+        <div class="packages">
+            <div class="card">
+                <h3>BASIC – R700</h3>
+                <ul>
+                    <li>Company Registration</li>
+                    <li>Moi & Incorporation</li>
+                    <li>B-BBEE</li>
+                    <li>Csd</li>
+                    <li>Tax Clearance</li>
+                    <li>Logo Design</li>
+                </ul>
+                <form action="https://www.payfast.co.za/eng/process" method="post" class="package-form">
+                    <input type="hidden" name="merchant_id" value="21317716" />
+                    <input type="hidden" name="merchant_key" value="fxcsbj1ytxtyz" />
+                    <input type="hidden" name="amount" value="700.00" />
+                    <input type="hidden" name="item_name" value="BASIC Package" />
+                    <button type="button" class="pay-btn open-modal-btn" data-package="basic">Pay Now</button>
+                </form>
+            </div>
+
+            <div class="card">
+                <h3>STANDARD – R900</h3>
+                <ul>
+                    <li>Company Registration</li>
+                    <li>Moi & Incorporation</li>
+                    <li>B-BBEE</li>
+                    <li>Csd</li>
+                    <li>Tax Clearance</li>
+                    <li>Beneficial Ownership</li>
+                    <li>Bank Account</li>
+                    <li>Logo Design</li>
+                </ul>
+                <form action="https://www.payfast.co.za/eng/process" method="post" class="package-form">
+                    <input type="hidden" name="merchant_id" value="21317716" />
+                    <input type="hidden" name="merchant_key" value="fxcsbj1ytxtyz" />
+                    <input type="hidden" name="amount" value="900.00" />
+                    <input type="hidden" name="item_name" value="STANDARD Package" />
+                    <button type="button" class="pay-btn open-modal-btn" data-package="standard">Pay Now</button>
+                </form>
+            </div>
+
+            <div class="card">
+                <h3>PREMIUM – R1800</h3>
+                <ul>
+                    <li>Company Registration</li>
+                    <li>Moi & Incorporation</li>
+                    <li>Business Profile</li>
+                    <li>Business Bank Account</li>
+                    <li>Share Certificate</li>
+                    <li>Beneficial Ownership</li>
+                    <li>B-BBEE </li>
+                    <li>Csd</li>
+                    <li>Bank Account</li>
+                    <li>Logo Design</li>
+                </ul>
+                <form action="https://www.payfast.co.za/eng/process" method="post" class="package-form">
+                    <input type="hidden" name="merchant_id" value="21317716" />
+                    <input type="hidden" name="merchant_key" value="fxcsbj1ytxtyz" />
+                    <input type="hidden" name="amount" value="1800.00" />
+                    <input type="hidden" name="item_name" value="PREMIUM Package" />
+                    <button type="button" class="pay-btn open-modal-btn" data-package="premium">Pay Now</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="beneficial-ownership" class="content-section active-section">
+        <h2><i class="fas fa-handshake"></i> Beneficial Ownership Registration</h2>
+        <div class="service-details-container">
+            <div class="service-content">
+                <h3>What is Beneficial Ownership?</h3>
+                <p>Beneficial Ownership (BO) refers to the **natural person(s)** who ultimately own or control a company, even if they aren't the registered shareholders. In South Africa, CIPC regulations require companies to disclose this information to prevent financial crimes like money laundering and to ensure complete transparency.</p>
+                <p>At Laizer Consultation, we understand these regulations can be complex and time-consuming. We simplify this process, providing a seamless and professional service to ensure your Beneficial Ownership status is fully compliant with CIPC requirements. With us, you get the peace of mind that your business is operating with integrity and transparency, protecting you from non-compliance penalties.</p>
+            </div>
+            <div class="service-pay-card">
+                <h3>Get Compliant for R280</h3>
+                <p><strong>Requirements:</strong></p>
+                <ul>
+                    <li>ID: A clear copy of the ID or passport of the beneficial owner(s).</li>
+                    <li>Cor14.3 Company Certificate: A copy of your company's official registration certificate.</li>
+                    <li>Email & Phone Number: The valid contact details for the beneficial owner.</li>
+                </ul>
+                <form action="https://www.payfast.co.za/eng/process" method="post" class="package-form">
+                    <input type="hidden" name="merchant_id" value="21317716" />
+                    <input type="hidden" name="merchant_key" value="fxcsbj1ytxtyz" />
+                    <input type="hidden" name="amount" value="280.00" />
+                    <input type="hidden" name="item_name" value="Beneficial Ownership" />
+                    <button type="button" class="pay-btn open-modal-btn" data-package="beneficial_ownership">Pay Now</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="nhbrc-exam-prep" class="content-section active-section">
+        <h2><i class="fas fa-graduation-cap"></i> NHBRC Exam Prep: Q&A Materials</h2>
+        <div class="service-details-container">
+            <div class="service-content">
+                <h3>What is the NHBRC Exam Scope?</h3>
+                <p>Preparing for the NHBRC Technical Competency Exam is a critical step for aspiring builders. Our comprehensive **NHBRC Questions and Answers** service is specifically designed to help you pass with confidence. We provide a focused set of materials that cover the key areas of the exam scope, giving you the knowledge and insights you need to succeed.</p>
+            </div>
+            <div class="service-pay-card">
+                <h3>Get Access for R350</h3>
+                <p><strong>Requirements:</strong></p>
+                <ul>
+                    <li>Email Address: To receive the digital Q&A material.</li>
+                </ul>
+                <form action="https://www.payfast.co.za/eng/process" method="post" class="package-form">
+                    <input type="hidden" name="merchant_id" value="21317716" />
+                    <input type="hidden" name="merchant_key" value="fxcsbj1ytxtyz" />
+                    <input type="hidden" name="amount" value="350.00" />
+                    <input type="hidden" name="item_name" value="NHBRC Q&A" />
+                    <button type="button" class="pay-btn open-modal-btn" data-package="nhbrc_qa">Pay Now</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="tax-clearance" class="content-section active-section">
+        <h2><i class="fas fa-file-invoice-dollar"></i> Tax Clearance Certificate (TCS)</h2>
+        <div class="service-details-container">
+            <div class="service-content">
+                <h3>What is a Tax Clearance Certificate?</h3>
+                <p>A valid Tax Clearance Certificate, now known as a Tax Compliance Status (TCS) PIN, is essential for any business operating in South Africa. It proves that your tax affairs are in order with SARS. We streamline the entire process for you, ensuring a swift and accurate application.</p>
+            </div>
+            <div class="service-pay-card">
+                <h3>Get Tax Clearance for R250</h3>
+                <p><strong>Requirements:</strong></p>
+                <ul>
+                    <li>Company Registration Number or Cor14.3 Company Certificate</li>
+                </ul>
+                <form action="https://www.payfast.co.za/eng/process" method="post" class="package-form">
+                    <input type="hidden" name="merchant_id" value="21317716" />
+                    <input type="hidden" name="merchant_key" value="fxcsbj1ytxtyz" />
+                    <input type="hidden" name="amount" value="250.00" />
+                    <input type="hidden" name="item_name" value="Tax Clearance Certificate" />
+                    <button type="button" class="pay-btn open-modal-btn" data-package="tax_clearance">Pay Now</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="content-section hideable-section">
+        <h2><i class="fas fa-briefcase"></i> Our Services</h2>
+        <ul class="services-links-list">
+            <li onclick="showDetails('Company Registration', 'We provide a seamless and professional company registration service, handling all legal setups and official documents from CIPC. Our expert guidance ensures your business is correctly established from the start, giving you a solid foundation for future growth.')">Company Registration</li>
+            <li onclick="showDetails('CSD Registration', 'Registering on the Central Supplier Database (CSD) is a vital step for any business looking to work with the South African government. This single, unified database serves as the official source of all supplier information for government departments. We simplify the entire process, ensuring your business is correctly registered with all necessary documentation, including tax and company details. By using our service, you gain a verified CSD number and reference, which is essential for tendering on government contracts and establishing your credibility as a reliable supplier.')">CSD Registration</li>
+            <li onclick="showDetails('Business Bank Account', 'Open a professional bank account for your company.')">Business Bank Account</li>
+            <li onclick="showDetails('Logo Design', 'Make a lasting impression with a professional logo that truly represents your brand. Our unique logo design offer provides exceptional value by giving you two powerful assets for a single, affordable price. We design a clean and versatile flat logo that is perfect for all your digital and print needs, from websites to letterheads. As a bonus, we create a dynamic 3D logo that adds depth and modern sophistication, ideal for standout visuals on social media, presentations, and product mockups. For just R250, you receive a complete branding solution that ensures your business looks polished, professional, and ready for success.')">Logo Design</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="content-section hideable-section">
+        <h2><i class="fas fa-envelope"></i> Contact Us</h2>
+        <p>Reach out for assistance, quotes or questions:</p>
+        <form class="contact-form" action="#" method="post">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="email" name="email" placeholder="Your Email" required />
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Laizer Consultation (Pty) Ltd | All rights reserved</p>
+    </footer>
+
+    <a href="https://wa.me/27713935250" class="whatsapp-chat" target="_blank" title="Chat on WhatsApp">
+        <img src="whatsapp-icon.png" alt="WhatsApp" class="whatsapp-icon-img">
+    </a>
+
+    <div id="requirementsModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2 id="modal-title"></h2>
+            <form id="requirementsForm">
+                <div id="formFields"></div>
+                <button type="submit" class="pay-btn">Proceed to Payment</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        // Toggle the mobile navigation menu
+        function toggleMenu() {
+            var nav = document.getElementById("navLinks");
+            var icon = document.querySelector(".menu-icon i");
+            nav.classList.toggle('nav-active');
+            if (nav.classList.contains('nav-active')) {
+                icon.classList.remove("fa-bars");
+                icon.classList.add("fa-times");
+            } else {
+                icon.classList.remove("fa-times");
+                icon.classList.add("fa-bars");
+            }
+        }
+        
+        // Show/Hide sections and close the menu
+        document.addEventListener('DOMContentLoaded', () => {
+            const navLinks = document.querySelectorAll('a[href^="#"]');
+            const hideableSections = document.querySelectorAll('.hideable-section');
+
+            // Function to show a specific hideable section and hide others
+            function showSection(targetId) {
+                // Hide all hideable sections
+                hideableSections.forEach(section => {
+                    section.classList.remove('active-section');
+                });
+                
+                // Show the targeted section if it's a hideable one
+                const targetSection = document.querySelector(targetId);
+                if (targetSection && targetSection.classList.contains('hideable-section')) {
+                    targetSection.classList.add('active-section');
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                } else {
+                    // For non-hideable sections, we just scroll to them
+                    if (targetSection) {
+                         window.scrollTo({ top: targetSection.offsetTop, behavior: 'smooth' });
+                    }
+                }
+            }
+
+            // Event listeners for navigation links
+            navLinks.forEach(link => {
+                link.addEventListener('click', (e) => {
+                    const targetId = link.getAttribute('href');
+
+                    if (targetId.startsWith('#')) {
+                        e.preventDefault();
+                        showSection(targetId);
+
+                        // Close the mobile menu after clicking a link
+                        if (window.innerWidth <= 768) {
+                             const nav = document.getElementById("navLinks");
+                             if (nav.classList.contains('nav-active')) {
+                                 toggleMenu();
+                             }
+                        }
+                    }
+                });
+            });
+
+            // Initial load state: check for a hash in the URL, otherwise show the home section
+            const initialSectionId = window.location.hash || '#home';
+            const initialSection = document.querySelector(initialSectionId);
+            
+            // Hide all hideable sections initially
+            hideableSections.forEach(section => {
+                section.classList.remove('active-section');
+            });
+
+            // If a hash exists, show that section. Otherwise, scroll to home.
+            if (initialSectionId && initialSection.classList.contains('hideable-section')) {
+                initialSection.classList.add('active-section');
+            }
+            window.scrollTo({ top: document.querySelector('#home').offsetTop, behavior: 'smooth' });
+        });
+
+
+        // Show details for a service (using a custom box instead of alert)
+        function showDetails(title, info) {
+            const detailsModal = document.createElement('div');
+            detailsModal.className = 'modal';
+            detailsModal.innerHTML = `
+                <div class="modal-content">
+                    <span class="close-btn">&times;</span>
+                    <h2>${title}</h2>
+                    <p>${info}</p>
+                </div>
+            `;
+            document.body.appendChild(detailsModal);
+            detailsModal.style.display = 'block';
+            detailsModal.querySelector('.close-btn').onclick = () => detailsModal.remove();
+            window.onclick = function(event) {
+                if (event.target === detailsModal) {
+                    detailsModal.remove();
+                }
+            };
+        }
+
+        // Pre-payment modal functionality
+        const modal = document.getElementById("requirementsModal");
+        const closeBtn = document.querySelector(".modal-content .close-btn");
+        const payButtons = document.querySelectorAll(".open-modal-btn");
+        const requirementsForm = document.getElementById("requirementsForm");
+        const formFields = document.getElementById("formFields");
+        const packageRequirements = {
+            basic: [
+                { label: "Company Name ", type: "text", name: "company_name", required: true },
+                { label: "Company Address", type: "text", name: "company_Address", required: true },
+                { label: "Director's Name and Surname", type: "text", name: "director_name", required: true },
+                { label: "Director's ID Number", type: "text", name: "director_id", required: true },
+                { label: "Contact Number", type: "tel", name: "contact_number", required: true },
+                { label: "Email Address", type: "email", name: "email", required: true }
+            ],
+            standard: [
+                { label: "Company Name ", type: "text", name: "company_name", required: true },
+                { label: "Company Address", type: "text", name: "company_Address", required: true },
+                { label: "Director's Name and Surname", type: "text", name: "director_name", required: true },
+                { label: "Director's ID Number", type: "text", name: "director_id", required: true },
+                { label: "Contact Number", type: "tel", name: "contact_number", required: true },
+                { label: "Email Address", type: "email", name: "email", required: true },
+            ],
+            premium: [
+                { label: "Company Name ", type: "text", name: "company_name", required: true },
+                { label: "Company Address", type: "text", name: "company_Address", required: true },
+                { label: "Director's Name and Surname", type: "text", name: "director_name", required: true },
+                { label: "Director's ID Number", type: "text", name: "director_id", required: true },
+                { label: "Contact Number", type: "tel", name: "contact_number", required: true },
+                { label: "Email Address", type: "email", name: "email", required: true },
+                { label: "Proposed Business Bank Name", type: "text", name: "bank_name", required: false }
+            ],
+            beneficial_ownership: [
+                { label: "ID Number or Passport Number of BO", type: "text", name: "bo_id_number", required: true },
+                { label: "Cor14.3 Company Certificate", type: "file", name: "cor14_3", required: true },
+                { label: "Email & Phone Number", type: "text", name: "bo_contact_details", required: true }
+            ],
+            nhbrc_qa: [
+                { label: "Email Address", type: "email", name: "email", required: true },
+                { label: "Contact Number", type: "tel", name: "contact_number", required: true }
+            ],
+            tax_clearance: [
+                { label: "Company Registration Number", type: "text", name: "company_reg_number", required: true },
+                { label: "Cor14.3 Company Certificate", type: "file", name: "cor14_3", required: true }
+            ]
+        };
+        let currentPayForm = null;
+        payButtons.forEach(button => {
+            button.addEventListener("click", () => {
+                const packageType = button.dataset.package;
+                currentPayForm = button.closest(".package-form");
+                formFields.innerHTML = "";
+                packageRequirements[packageType].forEach(req => {
+                    const label = document.createElement("label");
+                    label.textContent = req.label + ":";
+                    const input = document.createElement("input");
+                    input.type = req.type;
+                    input.name = req.name;
+                    input.placeholder = req.label;
+                    input.required = req.required;
+                    formFields.appendChild(label);
+                    formFields.appendChild(input);
+                });
+                document.getElementById("modal-title").textContent = `Requirements for ${packageType.toUpperCase()} Package`;
+                modal.style.display = "block";
+            });
+        });
+        closeBtn.addEventListener("click", () => {
+            modal.style.display = "none";
+        });
+        window.addEventListener("click", (event) => {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        });
+        requirementsForm.addEventListener("submit", (event) => {
+                event.preventDefault();
+                if (currentPayForm) {
+                    const formData = new FormData(requirementsForm);
+                    formData.forEach((value, key) => {
+                        const hiddenInput = document.createElement("input");
+                        hiddenInput.type = "hidden";
+                        hiddenInput.name = key;
+                        hiddenInput.value = value;
+                        currentPayForm.appendChild(hiddenInput);
+                    });
+                    currentPayForm.submit();
+                }
+                modal.style.display = "none";
+            });
+    </script>
+</body>
+</html>
